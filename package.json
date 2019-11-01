@@ -1,0 +1,33 @@
+{
+  "name": "react-easy-coverflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjnaude/react-easy-coverflow"
+  },
+  "scripts": {
+    "prepublishOnly": "babel ./src --out-dir ./dist -s inline --copy-files",
+    "build": "babel ./src --out-dir ./dist -s inline --copy-files"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "react": "^16.10.2"
+  },
+  "dependencies": {
+    "react-swipeable": "^5.4.0"
+  }
+}
