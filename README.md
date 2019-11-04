@@ -44,7 +44,7 @@ return (
 );
 ```
 
-![React-easy-coverflow Example](react-easy-coverflow.gif)
+![React-easy-coverflow Example](react-easy-coverflow-example.gif)
 
 ## Coverflow Options
 
